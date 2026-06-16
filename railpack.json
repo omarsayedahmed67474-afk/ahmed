@@ -1,0 +1,7 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "provider": "python",
+  "deploy": {
+    "startCommand": "playwright install chromium --with-deps && python 'bot4_optimized .py'"
+  }
+}
